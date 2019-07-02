@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 body {
-  background-color: darkblue;
+  background-color:;
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
@@ -13,5 +13,12 @@ body {
 
 h1 {
   font-family: "Merriweather", serif;
-  font-size: 64px;
+  font-size: 60px;
+}
+
+.parallax {
+  background-image: url(hell.jpg);
+  height: 720px;
+  background-position: center;
+  background-attachment: fixed;
 }
