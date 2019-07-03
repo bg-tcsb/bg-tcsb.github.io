@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Attractions</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="wrapper" id="hotels">
+      <div class="section parallax bg3">
+    <h1>Attractions</h1>
+    <h2><i>Take a sneak peek at what you are able to see and do in the underworld.</i></h2>
+        <button onclick="index()">Back</button>
+      </div>
+    </div>
+  </body>
+</html>
