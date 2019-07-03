@@ -54,7 +54,7 @@ h1 {
   /* Move the pseudo-element back away from the camera,
   * then scale it back up to fill the viewport.
   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1.9) translate(0, -100px);
+  transform: translateZ(-0.19px) scale(1.9) translate(0, -100px);
   /* Force the background image to fill the whole element. */
   background-size: 100%;
   /* Keep the image from overlapping sibling elements. */
@@ -74,8 +74,12 @@ h1 {
 }
 
 .bg2::after {
-  background-image: url('The_Hell.jpg');
+  background-image: url('house-fire.jpeg');
   background-size: cover;
   background-position: center;
-  margin-top: 50vh;
 }
+
+#hotels{
+  color: white;
+}
+
